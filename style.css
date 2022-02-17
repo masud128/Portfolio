@@ -1,0 +1,217 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Poppins, sans-serif;
+}
+.top-bannar{
+	display: flex;
+}
+.top-bannar{
+	background: url(images/top-banner.png);
+	background-repeat: no-repeat;
+	background-clip: border-box;
+	margin-bottom: 10%;
+}
+.write{
+	width: 50%;
+	padding-left: 3%;
+	padding-right: 3%;
+
+
+}
+.write h1{
+	margin-top: 1em;
+	text-align: center;
+	font-size: 3em;
+	margin-bottom: 1em;
+}
+.write .blue{
+	font-size: 3em;
+	text-align: center;
+	margin-bottom: 1em;
+}
+.blue .blue-color{
+	color: #4169E1;
+	font-weight: bold;
+}
+.write .blue-colors{
+	color: #4169E1;
+	font-weight: bold;
+}
+.write p{
+	text-align: center;
+}
+.top-bannar button{
+	padding:10px 40px;
+	background-image:linear-gradient(to right,#0178A1,#00CAF4);
+	border: none;
+	border-radius: 5px;
+}
+.top-bannar button a{
+	text-decoration: none;
+	color: white;
+	font-weight: 800;
+	font-size: larger;
+}
+.top-bannar .image {
+	width: 80%;
+	padding-top: 5%;
+	margin: auto;
+	display: block;
+}
+.middle{
+	display: flex;
+}
+.middle{
+	margin-bottom: 10%;
+}
+.middle img{
+	width: 80%;
+	padding-top: 10%;
+	margin: auto;
+	display: block;
+
+}
+.middle-write{
+	width: 96%;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+.middle .middle-write{
+	background: url(images/dream-bg.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 10vw;
+}
+.middle-write span{
+	display: inline-block;
+	text-decoration: none;
+	margin-top: 10%;
+	color: black;
+}
+.middle-write button {
+	padding: 10px 40px;
+	background-image: linear-gradient(to right,#0178A1,#00CAF4);
+	border: none;
+	border-radius: 5px;
+}
+.middle-write button a{
+	text-decoration: none;
+	font-weight: 800;
+	color: white;
+	font-size: larger;
+}
+.experience .last{
+	display: flex;
+}
+.experience .last{
+	background: url(images/exp-bg.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 10vw;
+	margin-bottom: 10em;
+	
+}
+.experience h1{
+	margin-top: 10%;
+	margin-bottom: 1em;
+	text-align: center;
+	font-size: 3em;
+}
+.last .baby-stack{
+	box-shadow: 5px 10px 30px grey;
+	width: 40%;
+	margin: 0 5%;
+	padding: 2% 5%;
+	border-radius: 10px;
+	background-color: #E8E8E8;
+	
+}
+.last .pro-level{
+	box-shadow:5px 10px 30px grey;
+	width: 40%;
+	margin: 0 5%;
+	padding: 2% 5%;
+	border-radius: 10px;
+	background-color: #E8E8E8;
+}
+.last .baby-stack h3{
+	color: #4169E2;
+}
+.last .pro-level h3{
+	color: #4169E2;
+}
+footer{
+	text-align: center;
+
+}
+@media screen and (max-width:850px){
+	.container{
+		display: block;
+	}
+	.top-bannar{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-bottom: 10em;
+	}
+	.write h1{
+		font-size: 2em;
+		text-align: center;
+		
+	}
+	.write .blue{
+		font-size: 2em;
+	}
+	.write p{text-align: center;}
+	.top-bannar button{
+		margin: 15px;
+		margin-bottom: 80%;
+	}
+	.top-bannar button a{
+		text-align: center;
+	}
+	.top-bannar .image {
+		width: 80%;
+		padding-top: 4px;
+	}
+	.middle{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-bottom: 10em;
+	}
+	.middle-write span{
+		text-align: center;
+		font-size: 2em;
+	}
+	.middle-write span p{
+		text-align: center;
+		padding: auto;
+	
+	}
+	.experience h1{
+		text-align: center;
+		font-size: 2em;
+	}
+	.experience .last{
+		display: block;
+		text-align: center;
+	}
+	.last .baby-stack{
+	display: block;
+	width: 80%;
+	margin: auto auto 2em auto;
+	padding: 1em;
+    overflow: hidden;
+    text-align: center;
+	}
+	.last .pro-level{
+	display: block;
+	width: 80%;
+	margin: auto auto 2em auto;
+	padding: 1em;
+	overflow: hidden;
+	text-align: center;
+	}
+}
